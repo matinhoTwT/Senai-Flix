@@ -1,7 +1,3 @@
--- Popula as tabelas filmes e series com dados de exemplo.
--- Executado automaticamente pelo Spring Boot no startup (spring.sql.init.mode=always).
--- O DELETE + reset do AUTO_INCREMENT deixam a carga idempotente entre reinicializações.
-
 DELETE FROM filmes;
 ALTER TABLE filmes AUTO_INCREMENT = 1;
 
